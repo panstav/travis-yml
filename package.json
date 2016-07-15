@@ -1,0 +1,31 @@
+{
+  "name": "@panstav/travis-yml",
+  "version": "0.0.0",
+  "description": "Creates a .travis.yml file 😕",
+  "main": "cli.js",
+  "bin": {
+    "travis-yml": "cli.js"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panstav/travis-yml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/panstav/travis-yml/issues"
+  },
+  "author": {
+    "name": "Stav Geffen",
+    "email": "stavgeffen@gmail.com",
+    "url": "http://www.stav.io"
+  },
+  "devDependencies": {
+    "execa": "0.4.0",
+    "expect.js": "0.3.1",
+    "mocha": "2.5.3"
+  },
+  "keywords": []
+}
